@@ -33,6 +33,7 @@ body {
 nav {
   display: inline-block;
   flex-grow: 1;
+  padding-left: 50px;
 }
 
 nav span {
@@ -51,28 +52,20 @@ a {
   height: 700px;
   width: 100%;
   background-image: url('./images/img-mission-background.jpg');
+  background-size: cover;
 }
 
 .mission {
   background-color: black;
   width: 100%;
-
-}
-
-h2 {
-
-}
-
-.mission h2 {
-
-}
-
-.mission h4 {
-
 }
 
 #featuredtea {
-
+  width: 100%;
+  padding-top: 50px;
+  height: 700px;
+  width: 1000px;
+  margin: auto;
 }
 
 #featuredtea h2 {
@@ -84,45 +77,55 @@ h2 {
 }
 
 .imagescontainer {
-
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
-.imagescontainer.item {
+.imagescontainer .item {
+  width: 300px;
+  height: 250px;
+  margin: 10px;
+}
 
+.imagescontainer .item img {
+  width: 300px;
+  height: 200px;
 }
 
 #locations {
-
+  background-image: url("./images/img-locations-background.jpg");
+  background-size: cover;
+  height: 500px;
+  width: 100%;
 }
 
 #locations h2 {
-
+  padding-top: 70px;
 }
 
-.locationscontainer.item h3 {
-
+.locationscontainer {
+  display: flex;
+  justify-content: center;
+  opacity: 1;
 }
 
-.locationscontainer.item p {
+.locationscontainer .item {
+  background-color: black;
+  width: 300px;
+  margin: 15px 40px;
+}
+
+.locationscontainer .item p {
+  padding-bottom: 10px;
 
 }
 
 .contact {
-
-}
-
-.contact h2 {
-
-}
-
-.contact p {
-
+  height: 200px;
 }
 
 footer {
-
-}
-
-footer p {
-
+  text-align: left;
+  padding-left: 20px;
 }
