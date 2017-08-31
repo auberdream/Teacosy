@@ -31,14 +31,23 @@ body {
 }
 
 nav {
-  display: inline-block;
   flex-grow: 1;
-  padding-left: 50px;
+  text-align: right;
+  align-self: flex-end;
+  width: 400px;
 }
 
 nav span {
   display: inline-block;
   padding: 20px 10px;
+}
+
+.navitemfirst {
+  margin-left: 50vw;
+}
+
+.navitem {
+  margin-left: 30px;
 }
 
 a {
@@ -66,14 +75,6 @@ a {
   height: 700px;
   width: 1000px;
   margin: auto;
-}
-
-#featuredtea h2 {
-
-}
-
-#featuredtea h4 {
-
 }
 
 .imagescontainer {
